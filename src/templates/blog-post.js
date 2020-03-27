@@ -6,6 +6,8 @@ import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import { rhythm, scale } from "../utils/typography"
 
+import "./blog-post.css"
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
