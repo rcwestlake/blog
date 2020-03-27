@@ -27,15 +27,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.title}
           </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
+          <div style={{
+            ...scale(-1 / 5),
+            display: "block",
+            marginBottom: rhythm(1),
+          }}>
+            <small style={{...scale(-1 / 5)}}>{post.frontmatter.date} </small>
+            <small style={{...scale(-1 / 5)}}>
+              • {post.timeToRead} min read
+            </small>
+          </div>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -91,6 +92,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
