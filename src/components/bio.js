@@ -25,6 +25,7 @@ const Bio = () => {
           author {
             name
             summary
+            about
           }
           social {
             twitter
@@ -43,9 +44,16 @@ const Bio = () => {
       }}
     >
       <h3 style={{ fontSize: '20px', lineHeight: "1.666" }}>
-        Personal blog of {` `} 
+        Thoughts by {` `}   
         <a href={social.twitter} target="_blank" style={{  fontWeight: "bold" }}>{author.name}</a> {` `}
-        <p>{author.summary}</p>
+        <p style={{ fontSize: '17px', fontWeight: "normal", marginBottom: "5px" }}>
+          <span style={{ fontWeight: "bold" }}>Me: </span>
+          {author.about}
+        </p>
+        <p style={{ fontSize: '17px', fontWeight: "normal" }}>
+          <span style={{ fontWeight: "bold" }}>Writings: </span>
+          {author.summary}
+        </p>
       </h3>
     </div>
   )

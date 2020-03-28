@@ -3,7 +3,8 @@ module.exports = {
     title: `Thoughts`,
     author: {
       name: `Ryan Westlake`,
-      summary: `Thoughts on many things. Hopefully mindful ones.`,
+      summary: `Topics vary like life: investing, faith, technology, friendship`,
+      about: `Thankful for adventure in the mountains, country music, and biographies about courageous folks who dreamed big.`
     },
     description: `Thoughts on life, faith, and investing.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
