@@ -1,0 +1,7 @@
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #00b894;
+}

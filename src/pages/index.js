@@ -6,6 +6,8 @@ import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import { rhythm } from "../utils/typography"
 
+import './index.css'
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
@@ -67,6 +69,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
           timeToRead
         }

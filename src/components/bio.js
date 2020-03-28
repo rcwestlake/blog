@@ -7,7 +7,6 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
@@ -40,10 +39,24 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(1),
       }}
     >
-      <Image
+      <h3 style={{ fontSize: '20px', lineHeight: "1.666" }}>
+        Personal blog of {` `} 
+        <a href={social.twitter} target="_blank" style={{  fontWeight: "bold" }}>{author.name}</a> {` `}
+        <p>{author.summary}</p>
+      </h3>
+    </div>
+  )
+}
+
+export default Bio
+
+/* 
+If I want to include Image in bio
+import Image from "gatsby-image"
+<Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
@@ -56,13 +69,4 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Personal blog by {` `} 
-        <a href={social.twitter} target="_blank">{author.name}</a> {` `}
-        <p>{author.summary}</p>
-      </p>
-    </div>
-  )
-}
-
-export default Bio
+*/
