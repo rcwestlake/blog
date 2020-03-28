@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `By Ryan`,
+    title: `Thoughts`,
     author: {
       name: `Ryan Westlake`,
       summary: `Thoughts on many things. Hopefully mindful ones.`,
@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Blog by Ryan`,
+        name: `Thoughts by Ryan`,
         short_name: `Blog by Ryan`,
         start_url: `/`,
         background_color: `#ffffff`,
