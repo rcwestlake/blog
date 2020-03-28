@@ -2,7 +2,7 @@
 title: 1 ton of feathers
 date: "2018-11-27T22:12:03.284Z"
 description: "A one-ton box of feathers weighs the same as a one-ton elephant."
-tags: ['tag1', 'tag2']
+tags: []
 ---
 
 *Principle*: a one-ton box of feathers weighs the same as a one-ton elephant.
