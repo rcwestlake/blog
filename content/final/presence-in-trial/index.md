@@ -1,8 +1,8 @@
 ---
 title: presence in trial
 date: "2018-09-14T22:12:03.284Z"
-description: "Or the act of being "there", being present in trial."
-tags: []
+description: "Or the act of being 'there', being present in trial."
+tags: ["faith"]
 ---
 
 Or the act of being "there", being present in trial.
