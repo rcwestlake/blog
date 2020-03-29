@@ -7,7 +7,7 @@ tags: ["investing", "companies"]
 
 Slack is a huge part of my life. I use it in my daily job and send thousands of messages each year. I've been tracking their progress through investor updates. And when they recently went to the public markets, I invested a little money.
 
-The story of Slack's birth and rebirth is pretty interesting (listen here).
+The story of Slack's birth and rebirth is pretty interesting (listen [here](https://www.npr.org/2018/07/27/633164558/slack-flickr-stewart-butterfield)).
 
 At it's core, it's a communication app. It replaces email in 90% of cases for companies. The remaining 10% is external relationships (think customer service and sales) and still requires email.
 
