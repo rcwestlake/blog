@@ -47,7 +47,7 @@ They can build a way to completely replace email. Low hanging fruit? Possibly. L
 
 Buy a company like Gusto to fill the HR and Benefits hole. People love and trust Slack. Use that trust to make further inroads. This would be the faster path.
 
-The 10 Cents
+**The 10 Cents**
 
 It's a ~10 year play.
 
