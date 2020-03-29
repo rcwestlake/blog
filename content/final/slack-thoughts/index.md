@@ -37,7 +37,7 @@ When they first announced their foray into the public markets, I thought: they h
 1. Grow with companies. As customers grow, Slack grows.
 2. Expand beyond communication. Become more than a communication tool.
 
-They way I see it: they could become the go to source for all things needed to run a company. Communication, HR, benefits.
+The way I see it: they could become the go to source for all things needed to run a company. Communication, HR, benefits.
 
 **Build Strategy**
 
